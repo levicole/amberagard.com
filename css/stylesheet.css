@@ -1,0 +1,501 @@
+* {
+  margin:0; 
+  padding:0; 
+}
+
+body { 
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 12px;
+  background: #1f1f2b;
+  overflow: hidden;
+}
+
+div#result{
+  color: #000;
+}
+
+div#house{
+  display: none;
+}
+
+h2{
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  font-size: 24px;
+}
+
+h3{
+  font-style: italic;
+  font-size: 16px;
+}
+
+div.red h2{
+  border-bottom: 1px solid #a12146;
+  background: url('../images/icons/icon_about.png') center right no-repeat; 
+  text-shadow: 1px 1px 0px #000;  
+}
+
+div.green h2{
+  margin-bottom: 18px;
+  border-bottom: 1px solid #9a9c1e;
+  background: url('../images/icons/icon_skills.png') center right no-repeat;  
+  text-shadow: 1px 1px 0px #000;  
+}
+
+div.blue h2{
+  border-bottom: 1px solid #415066;
+  text-shadow: 1px 1px 0px #000;  
+}
+
+div.purple h2{
+  border-bottom: 1px solid #494972;
+  background: url('../images/icons/icon_contact.png') center right no-repeat; 
+  text-shadow: 1px 1px 0px #000;  
+}
+
+div.lightblue h2{
+  border-bottom: 1px solid #0d86d4; 
+  background: url('../images/icons/icon_social.png') center right no-repeat;  
+  text-shadow: 1px 1px 0px #000;  
+}
+
+div.white h2{
+  border-bottom: 1px solid #343448;
+  background: url('../images/icons/icon_book.png') center right no-repeat;  
+  text-shadow: 1px 1px 0px #000;  
+  margin-top: -1px;
+  margin-left: -1px;
+}
+
+div.wrapper{
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+div.logo a{
+  position: relative;
+  margin: 20px 30px 20px 20px;
+  font-size: 44px;
+  padding-left: 22px;
+  line-height: 115px;
+  float: left;
+  /* width: 93px; */
+  height: 115px;
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1px 1px 0px #000;
+  text-decoration: none;
+}
+
+div.intro{
+  position: relative;
+  margin-top: 70px;
+  float: left;
+  color: #878791;
+  font-weight: 700;
+  text-shadow: 1px 1px 0px #000;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+div.menu{
+  position: relative;
+  margin-top: 70px; 
+  float: right;
+  font-weight: 700;
+  text-shadow: 1px 1px 0px #000;  
+  text-transform: uppercase;  
+  font-size: 16px;  
+}
+
+div.menu ul li{
+  float: left;
+  list-style: none;
+  margin-right: 20px;
+}
+
+div.menu ul li a{
+  color: #878791;
+  text-decoration: none;
+}
+
+div.menu ul li a:hover{
+  color: #fff;
+}
+
+div.content_container{
+  position: relative;
+  padding: 18px;
+  width: 964px;
+  height: 482px;
+  background: #fff;
+  box-shadow: 6px 6px 0px #14141d;
+}
+
+/*homepage*/
+/* items */
+div.item{
+  position: relative;
+  float: left;
+  padding: 2px;
+}
+
+div.text{
+  font-size: 18px;
+  font-weight: 600;
+  background: #000;
+}
+
+div.text_1{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+div.text_2{
+  position: absolute;
+  top: 44px;
+  left: 10px;
+  padding: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+div.text_3{
+  position: absolute;
+  top: 78px;
+  left: 10px;
+  padding: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+div.square{
+  width: 237px;
+  height: 237px;
+}
+
+div.horizontal{
+  width: 478px;
+  height: 237px;
+}
+
+/* slide 1 rechts staande afbeelding */
+div.col_1_big{
+  position: relative;
+  float: left;
+  width: 723px;
+}
+
+div.col_2_big{
+  position: relative;
+  float: left;
+  width: 239px;
+}
+
+/* slide 2 links, midden, rechts */
+div.col_1{
+  position: relative;
+  float: left;
+  width: 482px;
+}
+
+div.col_2{
+  position: relative;
+  float: left;
+  width: 241px;
+}
+
+div.col_3{
+  position: relative;
+  float: left;
+  width: 241px;
+}
+
+
+/*about*/
+div.image{
+  position: relative;
+  margin: 2px;
+  float: left;
+  width: 317px;
+  height: 478px;
+}
+
+div.red{
+  position: relative;
+  padding: 15px 20px;
+  margin: 2px;
+  float: left;
+  width: 276px;
+  height: 231px;
+  font-family: arial;
+  background: #8b1033;
+  text-shadow: 1px 1px 0px #000;
+  line-height: 32px;
+  overflow-x: hidden;
+}
+
+div.red p{ line-height: 20px }
+
+div.green{
+  position: relative;
+  padding: 15px 20px; 
+  margin: 2px;
+  float: left;
+  width: 279px;
+  height: 231px;
+  font-family: arial; 
+  background: #85870b;
+  line-height: 32px;  
+}
+
+div.blue{
+  position: relative;
+  padding: 15px 20px; 
+  margin: 2px;
+  float: left;
+  width: 599px;
+  height: 183px;
+  font-family: arial; 
+  background: url('../images/background_blue.png') #334156 bottom right no-repeat;
+  text-shadow: 1px 1px 0px #000;
+  line-height: 32px;  
+}
+
+div.skills{
+  position: relative;
+  padding: 0px 10px;
+  margin-bottom: 4px;
+  width: 258px;
+  height: 29px;
+  color: #878791;
+  font-weight: bold;
+}
+
+div.resume{
+  position: relative;
+  float: left;
+  width: 514px;
+}
+
+div.label{
+  position: relative;
+  margin-top: 9px;
+  float: left;
+  height: 29px;
+  width: 85px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 29px;
+  color: #878791;
+  background: #ffffff;
+  text-shadow: none;
+}
+
+div.stars_1{
+  background: url('../images/background_1stars.png') #fff center right no-repeat;
+}
+div.stars_2{
+  background: url('../images/background_2stars.png') #fff center right no-repeat;
+}
+div.stars_3{
+  background: url('../images/background_3stars.png') #fff center right no-repeat;
+}
+div.stars_4{
+  background: url('../images/background_4stars.png') #fff center right no-repeat;
+}
+div.stars_5{
+  background: url('../images/background_5stars.png') #fff center right no-repeat;
+}
+
+
+
+/* contact */
+div.googlebg{
+  position: relative;
+  margin: 2px;
+  padding: 15px 20px;   
+  float: left;  
+  width: 275px;
+  height: 446px;
+  font-family: arial; 
+  color: #fff;
+  background: #16161e;  
+  
+}
+div.mid{
+  position: relative; 
+  margin: 2px;  
+  float: left;
+  width: 318px;
+  height: 288px;
+}
+
+div.purple{
+  position: relative; 
+  padding: 15px 20px; 
+  float: left;
+  width: 278px;
+  height: 258px;
+  font-family: arial; 
+  background: url('../images/background_purple.png') #333356 bottom right no-repeat;  
+  text-shadow: 1px 1px 0px #000;  
+  line-height: 32px;  
+}
+
+span.label{
+  position: relative;
+  float: left;
+  width: 100px;
+  font-weight: bold;
+}
+
+span.input{
+  position: relative;
+  float: left;
+  width: 178px;
+}
+
+div.lightblue{
+  position: relative;
+  margin-top: 4px;
+  padding: 15px 20px; 
+  float: left;
+  width: 278px;
+  height: 154px;
+  background: #0072bc;
+  line-height: 32px;  
+}
+
+div.lightblue ul li{
+  list-style: none;
+  float: left;
+  margin-right: 9px;
+}
+
+div.lightblue ul li.last{
+  margin-right: 0px;
+}
+
+div.white{
+  position: relative;
+  margin: 2px;
+  padding: 15px 20px;   
+  float: left;  
+  width: 275px;
+  height: 446px;
+  font-family: arial; 
+  color: #fff;
+  background: #1f1f2b top left no-repeat; 
+  line-height: 32px;  
+}
+
+input.input{
+  position: relative;
+  margin-top: 10px;
+  background: #fff;
+  padding-left: 5px;
+  color: #1f1f2b;
+  height: 29px;
+  width: 269px;
+  font-size: 14px;
+  border: 1px solid #fff;
+}
+
+textarea.input{
+  position: relative;
+  margin-top: 10px;
+  background: #fff;
+  padding: 5px;
+  color: #1f1f2b;
+  max-height: 135px;
+  max-width: 254px; 
+  min-height: 135px;
+  min-width: 264px; 
+  height: 135px;
+  width: 254px;
+  font-family: arial;
+  font-size: 14px;
+  border: 1px solid #d9d9e0;
+}
+
+input.button{
+        width: 96px;
+        padding:3px;
+        font-size: 12px;        
+        color: #aeaecc;
+  cursor: pointer;
+  background: url('../images/background_button.png') no-repeat; 
+        border: 0px outset #ff0000;
+  font-size: 18px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+        text-align: center; 
+}
+
+/* footer */
+div.footer{
+  position: relative;
+  margin: 15px auto 0px;
+  width: 964px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+div.clear{
+  clear: both;
+}
+
+
+a img{
+  border: 0px;
+}
+
+
+
+div#overlay{
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: url('../images/background_overlay.png');
+  z-index: 9999999;
+}
+
+div#popup{
+  position: relative;
+  top: 35%;
+  left: 45%;
+  padding: 10px;
+  height: 100px;
+  width: 200px;
+  background: #fff;
+  opacity: 1;
+  color: #000;
+}
+
+textarea.error,
+input.error{
+  font-size: 14px;
+  border: 1px solid red;
+}
+
+iframe{
+  border: 0px;
+}
